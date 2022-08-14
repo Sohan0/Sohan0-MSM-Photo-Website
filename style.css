@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps:wght@400;700&family=Orbitron:wght@500;600&family=Permanent+Marker&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand .msm{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+.navbar-nav li a{
+  font-weight: 600;
+}
+.togglerbutton{
+  font-size: 30px;
+}
+.typed{
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+}
+.photogallery{
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+}
+.box img{
+  /* min-height:260px; */
+  width:100%;
+  height:100%;
+  /* min-height:300px; */
+  /* max-height:300px; */
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.see-more-button{
+  background:crimson;
+  color:white;
+  border:1px solid transparent;
+  border-radius:5px;
+  padding:5px 20px;
+  margin:10px 0;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.see-more-button:hover{
+  background: white;
+  color:crimson;
+  border:1px solid crimson;
+  text-decoration: none;
+}
+.mixerButtons button{
+  border:2px solid #fff;
+  background:transparent;
+  padding:5px 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color:crimson;
+  color:white;
+  transition:0.3s ease;
+  position:relative;
+  z-index: 1;
+}
+.mixerButtons button::before{
+  content:'';
+  position: absolute;
+  background-color: #fff;
+  color:crimson;
+  border-color: crimson;
+  border-radius:5px;
+  left:0;
+  top:0;
+  width:0;
+  height:100%;
+  z-index:-1;
+  transition:0.5s;
+}
+.mixerButtons button:hover{
+  color:crimson;
+  border-color: crimson;
+  background:#fff;
+}
+.mixerButtons button:hover::before{
+  width:100%;
+}
+.mixerButtons .mixitup-control-active{
+  background-color: #fff;
+  color:crimson;
+  border-color: crimson;
+}
+
+/* footer design  */
+.footer{
+  background:#000;
+  color:#fff;
+}
+.footer-divs h4{
+  border-bottom:1px solid #f7f7f797;
+  text-transform: capitalize;
+}
+
+.footer-divs p{
+  text-align: justify;
+  font-size: 14px;
+  font-family: serif;
+}
+.contact-info p{
+  display: flex;
+  align-items: center;
+}
+.contact-info i{
+  font-size: 22px;
+  width:40px;
+}
+.contact-info a{
+  color:#fff;
+  text-decoration: none;
+}
+.social{
+  display: flex;
+}
+.social ul{
+  display: flex;
+  margin:0;
+  padding:0;
+}
+.social ul li{
+  list-style:none;
+  padding:0 11px;
+}
+.social ul li a{
+  text-decoration: none;
+}
+.social ul li a i{
+  color:#fff;
+}
