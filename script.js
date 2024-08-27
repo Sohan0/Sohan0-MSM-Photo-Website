@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var typed = new Typed('.element', {
-        strings: ["Sohan Sarkar.", "a graphic designer", "Photographer"],
+        strings: ["Sad-Uddin.", "a graphic designer", "Photographer" , "Digital Marketer "],
         typeSpeed: 100,
         backSpeed:50,
         loop:true,

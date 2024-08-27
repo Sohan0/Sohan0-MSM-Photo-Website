@@ -7,6 +7,11 @@ body{
   font-family: 'Permanent Marker', cursive;
   font-size: 2rem;
 }
+.navbar-brand img{ 
+  width: 40px;
+
+}
+
 .navbar-nav li a{
   font-weight: 600;
 }
